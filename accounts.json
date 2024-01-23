@@ -1,11 +1,11 @@
 {
 	"1111-2222-3333": {
-		"plan": "free"
+		"role": "admin"
 	},
 	"2222-1111-3333": {
-		"plan": "pro"
+		"role": "user"
 	},
 	"3333-1111-2222": {
-		"plan": "enterprise"
+		"role": "user"
 	}
 }
