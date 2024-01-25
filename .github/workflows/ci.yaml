@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest]
         python-version:
           - "3.8"
           - "3.9"
@@ -33,3 +33,11 @@ jobs:
     - name: Run unit tests for the Joke Service
       working-directory: joke-service
       run: pytest
+
+  build-docker-image:
+    name: Build docker image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the Docker image
+        uses: actions/checkout@v3
+        run: docker build --file Dockerfile -t joke-service:$(date +%s) .
