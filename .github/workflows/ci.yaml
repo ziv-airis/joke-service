@@ -31,4 +31,5 @@ jobs:
       run: pip install -r joke-service/requirements.txt
 
     - name: Run unit tests for the Joke Service
+      working-directory: joke-service
       run: pytest
