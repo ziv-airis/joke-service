@@ -35,9 +35,12 @@ jobs:
       run: pytest
 
   build-docker-image:
+    needs: run-unit-test
     name: Build docker image
     runs-on: ubuntu-latest
     steps:
-      - name: Build the docker image
+      - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Build the docker image
         run: docker build --file Dockerfile -t joke-service:$(date +%s) .
