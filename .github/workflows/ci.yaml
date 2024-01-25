@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "feature/CI-pipeline" ]
+    branches: [ "master" ]
 
 jobs:
   run-unit-test:
