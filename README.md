@@ -38,3 +38,14 @@ To run the service tests
 #### Run the server
 To run the service you can use this command
 `uvicorn main:app`
+
+#### Create new docker image
+To create new image you can use this command from root directory
+Need to choose a version i.e 1.0 instead of <version>
+`docker build -t joke-service:<version> .`
+
+#### Run the server using docker
+To run the service you can use this command from root directory
+Need to choose a version i.e 1.0 instead of <image_version>
+and i.e 1 instead of <container_version>
+`docker run -p 8000:8000 --name joke-service<container_version> joke-service:<image_version>`
