@@ -36,7 +36,7 @@ jobs:
 
   build-docker-image:
     needs: run-unit-test
-    name: Build docker image
+    name: Build docker image without push
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
