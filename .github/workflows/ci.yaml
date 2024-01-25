@@ -38,6 +38,6 @@ jobs:
     name: Build docker image
     runs-on: ubuntu-latest
     steps:
-      - name: Build the Docker image
+      - name: Build the docker image
         uses: actions/checkout@v3
         run: docker build --file Dockerfile -t joke-service:$(date +%s) .
