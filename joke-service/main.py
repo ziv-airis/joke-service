@@ -1,6 +1,8 @@
 import requests
 from fastapi import FastAPI
 from auth import Auth
+from ofeklogger.log import Log
+
 from joke import Joke
 app = FastAPI()
 
@@ -11,3 +13,4 @@ async def root():
     return Joke.from_dict(response)
 
 app.add_middleware(Auth)
+app.add_middleware(Log)
