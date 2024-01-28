@@ -9,5 +9,5 @@ class Auth(BaseHTTPMiddleware):
         if request.headers.get('authorization') not in accounts: 
             return JSONResponse(status_code=403, content={'error': 'Invalid request!'})
         else:
-            request.account = accounts[request.headers.get('authorization')]
+            request.state.account = accounts[request.headers.get('authorization')]["role"]
             return await call_next(request)
