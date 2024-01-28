@@ -1,6 +1,9 @@
 import requests
 from fastapi import FastAPI
 from auth import Auth
+# from log import Log
+from ofeklogger.log import Log
+
 from joke import Joke
 app = FastAPI()
 
@@ -10,4 +13,6 @@ async def root():
     Joke.from_dict(response)
     return Joke.from_dict(response)
 
-app.add_middleware(Auth)
+# The last add_middleware will be called first
+app.add_middleware(Auth) # The order matters, this way the Auth will be seccond (because in UNAUTHORIZED situations will return immidiatly and I want to write the log)
+app.add_middleware(Log)
