@@ -1,0 +1,43 @@
+2024-01-27 21:41:01,248 - uvicorn.error - INFO - Started server process [8]
+2024-01-27 21:41:01,251 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-27 21:41:01,262 - uvicorn.error - INFO - Application startup complete.
+2024-01-27 21:41:54,661 - root - INFO - 1706391714.0167673 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 21:41:56,657 - root - INFO - 1706391716.2689517 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 21:44:44,642 - root - INFO - 1706391884.2153552 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 21:44:56,900 - root - INFO - 1706391896.5530415 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 21:45:06,439 - root - INFO - 1706391905.9259927 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 21:46:23,955 - uvicorn.error - INFO - Shutting down
+2024-01-27 21:46:24,058 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-27 21:46:24,059 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-27 21:46:24,062 - uvicorn.error - INFO - Finished server process [8]
+2024-01-27 22:11:05,465 - uvicorn.error - INFO - Started server process [8]
+2024-01-27 22:11:05,475 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-27 22:11:05,481 - uvicorn.error - INFO - Application startup complete.
+2024-01-27 22:12:44,505 - root - INFO - 1706393563.8222575 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:12:47,060 - root - INFO - 1706393566.455489 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:13:52,865 - root - INFO - 1706393632.047816 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:13:54,608 - root - INFO - 1706393634.6066413 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:13:56,163 - root - INFO - 1706393636.1625845 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:13:58,813 - root - INFO - 1706393638.288371 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:15:24,565 - root - INFO - 1706393724.0305502 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:15:25,883 - root - INFO - 1706393725.3225164 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:15:27,323 - root - INFO - 1706393726.7787175 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:17:25,799 - root - INFO - 1706393845.216565 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:17:27,439 - root - INFO - 1706393846.9563613 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:20:40,465 - root - INFO - 1706394040.0762303 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:20:42,747 - root - INFO - 1706394042.270166 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:20:44,462 - root - INFO - 1706394044.002584 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-27 22:20:54,395 - root - INFO - 1706394054.395176 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:55,873 - root - INFO - 1706394055.8726547 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:56,357 - root - INFO - 1706394056.3569744 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:57,318 - root - INFO - 1706394057.3178885 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:57,789 - root - INFO - 1706394057.7886176 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:58,510 - root - INFO - 1706394058.5096366 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:59,024 - root - INFO - 1706394059.022836 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:59,419 - root - INFO - 1706394059.4190252 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:20:59,796 - root - INFO - 1706394059.795969 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:21:00,373 - root - INFO - 1706394060.3722696 | UNAUTHORIZED | 172.18.0.1 | /joke | GET | 403
+2024-01-27 22:24:33,387 - uvicorn.error - INFO - Shutting down
+2024-01-27 22:24:33,492 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-27 22:24:33,497 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-27 22:24:33,501 - uvicorn.error - INFO - Finished server process [8]

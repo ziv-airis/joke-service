@@ -39,6 +39,9 @@ To run the service tests
 To run the service you can use this command
 `uvicorn main:app`
 
+
+## Solution:
+### First phase:
 #### Create new docker image
 To create new image you can use this command from root directory
 Need to choose a version i.e 1.0 instead of <version>
@@ -54,3 +57,23 @@ and i.e 1 instead of <container_version>
 For every push to master a github action will be triggered and will run the following:
     1. Run unit tests for the Joke Service. (pytest)
     2. Build a Docker image of the service withot pushing it.
+
+### Second phase:
+#### Docker compose
+To run all the services you can use this command from root directory:
+docker compose up
+To make the ELK run I needed to create a docker compose with the following services:
+1. joke-service
+2. filebeat
+3. elasticsearch 
+4. kibana
+
+#### Logs:
+To see the logs inside the sqlite DB Run:
+1. docker exec -it <joke-service-container-id> /bin/bash
+2. sqlite3 /path/to/your/log.db
+3. SELECT * FROM logs;
+
+#### Kibana
+Uploaded to: port 5601, you can see in discover logs after you will create a few requests:
+http://localhost:5601/app/discover

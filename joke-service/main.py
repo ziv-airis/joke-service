@@ -1,6 +1,7 @@
 import requests
 from fastapi import FastAPI
 from auth import Auth
+# from log import Log
 from ofeklogger.log import Log
 
 from joke import Joke

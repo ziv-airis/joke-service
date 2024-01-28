@@ -1,0 +1,61 @@
+2024-01-28 17:49:15,920 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 17:49:15,972 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 17:49:15,975 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 17:49:59,115 - root - INFO - 1706464198.534387 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 17:51:48,640 - root - INFO - 1706464308.235562 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 17:52:18,762 - uvicorn.error - INFO - Shutting down
+2024-01-28 17:52:18,864 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 17:52:18,865 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 17:52:18,866 - uvicorn.error - INFO - Finished server process [8]
+2024-01-28 17:57:42,440 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 17:57:42,441 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 17:57:42,443 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 18:06:25,007 - root - INFO - 1706465184.5163202 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:17:21,669 - uvicorn.error - INFO - Shutting down
+2024-01-28 18:17:21,774 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 18:17:21,778 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 18:17:21,783 - uvicorn.error - INFO - Finished server process [8]
+2024-01-28 18:18:01,142 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 18:18:01,147 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 18:18:01,152 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 18:18:55,308 - root - INFO - 1706465934.8398762 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:18:56,778 - root - INFO - 1706465936.368645 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:18:58,893 - root - INFO - 1706465937.791526 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:19:07,993 - root - INFO - 1706465947.6520207 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:19:09,241 - root - INFO - 1706465948.8392293 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:19:11,180 - root - INFO - 1706465950.770731 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:20:16,980 - uvicorn.error - INFO - Shutting down
+2024-01-28 18:20:17,082 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 18:20:17,089 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 18:20:17,092 - uvicorn.error - INFO - Finished server process [8]
+2024-01-28 18:21:14,883 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 18:21:14,885 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 18:21:14,887 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 18:21:37,467 - root - INFO - 1706466097.0123305 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:21:38,741 - root - INFO - 1706466098.2677822 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:21:41,162 - root - INFO - 1706466100.740407 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:21:42,837 - root - INFO - 1706466102.3260705 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:23:22,672 - uvicorn.error - INFO - Shutting down
+2024-01-28 18:23:22,779 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 18:23:22,782 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 18:23:22,786 - uvicorn.error - INFO - Finished server process [8]
+2024-01-28 18:57:01,739 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 18:57:01,750 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 18:57:01,767 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 18:57:09,958 - root - INFO - 1706468228.9938614 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:57:56,528 - root - INFO - 1706468276.1259105 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:57:58,691 - root - INFO - 1706468277.9881043 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:58:34,156 - root - INFO - 1706468313.7092717 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 18:59:12,576 - uvicorn.error - INFO - Shutting down
+2024-01-28 18:59:12,682 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 18:59:12,684 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 18:59:12,686 - uvicorn.error - INFO - Finished server process [8]
+2024-01-28 19:04:12,244 - uvicorn.error - INFO - Started server process [8]
+2024-01-28 19:04:12,249 - uvicorn.error - INFO - Waiting for application startup.
+2024-01-28 19:04:12,280 - uvicorn.error - INFO - Application startup complete.
+2024-01-28 19:04:19,257 - root - INFO - 1706468658.706063 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 19:04:23,826 - root - INFO - 1706468663.4394047 | admin | 172.18.0.1 | /joke | GET | 200
+2024-01-28 19:04:57,283 - uvicorn.error - INFO - Shutting down
+2024-01-28 19:04:57,389 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-01-28 19:04:57,404 - uvicorn.error - INFO - Application shutdown complete.
+2024-01-28 19:04:57,406 - uvicorn.error - INFO - Finished server process [8]
