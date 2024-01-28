@@ -61,3 +61,4 @@ To see the logs inside the sqlite DB Run:
 1. docker exec -it <joke-service-container-id> /bin/bash
 2. sqlite3 /path/to/your/log.db
 3. SELECT * FROM logs;
+ 
