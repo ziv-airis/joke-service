@@ -54,3 +54,10 @@ and i.e 1 instead of <container_version>
 For every push to master a github action will be triggered and will run the following:
     1. Run unit tests for the Joke Service. (pytest)
     2. Build a Docker image of the service withot pushing it.
+
+    
+#### Logs:
+To see the logs inside the sqlite DB Run:
+1. docker exec -it <joke-service-container-id> /bin/bash
+2. sqlite3 /path/to/your/log.db
+3. SELECT * FROM logs;
