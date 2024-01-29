@@ -61,3 +61,8 @@ To see the logs inside the sqlite DB Run:
 1. docker exec -it <joke-service-container-id> /bin/bash
 2. sqlite3 /path/to/your/log.db
 3. SELECT * FROM logs;
+
+#### Logging Lib:
+I wrote it in a different repository because I thought it will show it is more independent.
+https://github.com/ofeks96/ofeklogger
+But I added it to be next to the joke-server
