@@ -38,3 +38,31 @@ To run the service tests
 #### Run the server
 To run the service you can use this command
 `uvicorn main:app`
+
+#### Create new docker image
+To create new image you can use this command from root directory
+Need to choose a version i.e 1.0 instead of <version>
+`docker build -t joke-service:<version> .`
+
+#### Run the server using docker
+To run the service you can use this command from root directory
+Need to choose a version i.e 1.0 instead of <image_version>
+and i.e 1 instead of <container_version>
+`docker run -p 8000:8000 --name joke-service<container_version> joke-service:<image_version>`
+
+#### CI pipeline
+For every push to master a github action will be triggered and will run the following:
+    1. Run unit tests for the Joke Service. (pytest)
+    2. Build a Docker image of the service withot pushing it.
+
+    
+#### Logs:
+To see the logs inside the sqlite DB Run:
+1. docker exec -it <joke-service-container-id> /bin/bash
+2. sqlite3 /path/to/your/log.db
+3. SELECT * FROM logs;
+
+#### Logging Lib:
+I wrote it in a different repository because I thought it will show it is more independent.
+https://github.com/ofeks96/ofeklogger
+But I added it to be next to the joke-server
